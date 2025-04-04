@@ -10,13 +10,13 @@ export default function WeatherDashboard() {
                
                       <div class="h-[97%] w-[85%] bg-slate-800 rounded rounded-[2vh]">
                           <div class="h-[13%] w-[100%] rounded rounded-[2vh] flex justify-center items-center">
-                          <div class="h-[70%] w-[70%] bg-slate-900 rounded rounded-[2vh] flex justify-center items-center text-3xl text-[#8193a1]">
+                          <div class="h-[70%] w-[70%] bg-slate-900 rounded rounded-2vh flex justify-center items-center text-3xl text-[#8193a1]">
                                   <i class="fa-solid fa-wind"></i>
                           </div>
                           </div>
-                          <div class="mt-10 h-[10%] w-[100%]  rounded rounded-[2vh]">
+                          <div class="mt-10 h-[10%] w-[100%]  rounded rounded-2vh">
                               <div
-                                  class="h-[30%] w-[100%] rounded rounded-[2vh] justify-center items-center text-3xl flex item-end justify-center text-white ">
+                                  class="h-[30%] w-[100%] rounded rounded-2vh justify-center items-center text-3xl flex item-end justify-center text-white ">
                                   <i class="fa-solid fa-cloud"></i>
       
                               </div>

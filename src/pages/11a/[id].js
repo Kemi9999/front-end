@@ -44,7 +44,7 @@ export default function ID() {
           </div>
         ) : (
           <p>
-            {index == 1 &&
+            {index == 0 &&
               `${router.query.id} ene ni idtai hereglecgh oldsongu!`}
           </p>
         )
