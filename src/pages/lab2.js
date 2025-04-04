@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function Home(){
+export default function Lab2(){
     const [data, setData] = useState("");
     useEffect(() =>{
         const fetchData =async () =>{

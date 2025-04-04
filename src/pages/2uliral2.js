@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function Home() {
+export default function Uliral2() {
     const [clickCount, setClickCount] = useState(0);
     return(
         <div className="h-screen bg-gray-100 flex flex-col items-center text-center ">

@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-export default function Home() {
+export default function Cv() {
   const router = useRouter();
     return (
       <div className="bg-gray-50 text-gray-900 font-sans antialiased">
