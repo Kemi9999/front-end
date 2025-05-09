@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import axios from 'axios';
 
 export default function Home() {
   const router = useRouter();
@@ -43,7 +44,19 @@ export default function Home() {
     };
 
     fetchData();
+
+
   }, []);
+
+  console.log(clothesData);
+
+  const handleSubmit = () => {
+ //   axios.get
+ //   axios.post
+ //   axios.patch
+ //   axios.delete
+ axios.post("https://mongol-api-rest.vercel.app/clothes");
+  }
 
   const filterData = (items) =>
     items.filter((item) =>
@@ -61,6 +74,8 @@ export default function Home() {
           onChange={(e) => setSearchQuery(e.target.value)}
         />
       </div>
+
+      <button className="bg-blue-400 rounded-2xl p-2 mx-auto mt-4"> shineer hariltsagch uusgeh</button>
 
       {loading && <p className="text-center text-gray-700 font-semibold">Loading...</p>}
 
