@@ -55,7 +55,9 @@ export default function Home() {
  //   axios.post
  //   axios.patch
  //   axios.delete
- axios.post("https://mongol-api-rest.vercel.app/clothes");
+ axios.post("https://mongol-api-rest.vercel.app/clothes", {
+  
+ });
   }
 
   const filterData = (items) =>
